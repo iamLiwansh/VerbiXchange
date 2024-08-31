@@ -6,6 +6,7 @@ const Form = ({
   isSignInPage  = false,
 }) => {
   return (
+    
     <div className='bg-white w-[400px] md:w-[500px] lg:w-[600px] h-auto shadow-2xl rounded-3xl flex flex-col justify-center items-center p-8'>
       <div className='text-4xl font-extrabold text-gray-800 mb-4'>Welcome {isSignInPage && 'back'}</div>
       <div className='text-lg font-light text-gray-600 mb-10'>{isSignInPage ? 'Sign-in to explore' : 'Sign up now to get started'}</div>
