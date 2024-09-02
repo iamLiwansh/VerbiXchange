@@ -74,7 +74,10 @@ const Dashboard = () => {
         </div>
       </div>
       <div className="w-[50%] h-screen bg-white flex flex-col items-center">
-          <div className="w-[75%] bg-secondary h-[80px] mt-14 rounded-full"></div>
+          <div className="w-[75%] bg-secondary h-[80px] mt-14 rounded-full flex items-center px-14">
+            <div> <img src={Avatar} alt="user" height={40} width={40}/></div>
+            <h3  className="text-lg ml-6">Kapil</h3>
+          </div>
       </div>
       <div className="w-[25%] h-screen"></div>
     </div>
