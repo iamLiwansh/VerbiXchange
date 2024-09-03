@@ -104,6 +104,9 @@ const Dashboard = () => {
             </svg>
           </div>
         </div>
+        <div className="h-[75%] w-full border overflow-scroll">
+          <div className="h-[1000px]"></div>
+        </div>
       </div>
       <div className="w-[25%] h-screen"></div>
     </div>
