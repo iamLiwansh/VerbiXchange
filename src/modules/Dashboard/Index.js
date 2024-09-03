@@ -105,7 +105,9 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="h-[75%] w-full border overflow-scroll">
-          <div className="h-[1000px]"></div>
+          <div className="h-[1000px] px-10 py-14">
+            <div className='h-[80px] w-[300px] bg-secondary rounded-b-lg rounded-tr-lg'></div>
+          </div>
         </div>
       </div>
       <div className="w-[25%] h-screen"></div>
