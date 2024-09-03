@@ -78,7 +78,7 @@ const Dashboard = () => {
       <div className="w-[50%] h-screen bg-white flex flex-col items-center">
         <div className="w-[75%] bg-secondary h-[80px] mt-14 rounded-full flex items-center px-14">
           <div>
-            <img src={Avatar} alt="user" height={40} width={40} />
+            <img className="cursor-pointer" src={Avatar} alt="user" height={40} width={40} />
           </div>
           <div className="ml-6 mr-auto ">
             <h3 className="text-lg ">Kapil</h3>
