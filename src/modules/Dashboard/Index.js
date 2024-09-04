@@ -106,7 +106,12 @@ const Dashboard = () => {
         </div>
         <div className="h-[75%] w-full border overflow-scroll">
           <div className="h-[1000px] px-10 py-14">
-            <div className='h-[80px] w-[300px] bg-secondary rounded-b-xl rounded-tr-xl'></div>
+            <div className='max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4'>
+              lorem ispum is simplt dummy text fr peronmf amd irierf indiusdysf .
+            </div>
+            <div className='max-w-[40%] bg-primary rounded-b-xl rounded-t1-xl ml-auto p-4 text-white'>
+            lorem ispum is simplt dummy text fr peronmf amd irierf indiusdysf .
+            </div>
           </div>
         </div>
       </div>
