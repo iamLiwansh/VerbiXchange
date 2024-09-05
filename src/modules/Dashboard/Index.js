@@ -107,28 +107,28 @@ const Dashboard = () => {
         <div className="h-[75%] w-full  overflow-scroll">
           <div className=" p-14">
             <div className='max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6'>
-              lorem ispum is simplt dummy text fr peronmf amd irierf indiusdysf .
+              lorem ispum is simplt dummy text fr peronmf amd irierf 
             </div>
             <div className='max-w-[40%] bg-primary rounded-b-xl rounded-t1-xl ml-auto p-4 text-white mb-6'>
-            lorem ispum is simplt dummy text fr peronmf amd irierf indiusdysf .
+            lorem ispum is simplt dummy text fr peronmf amd irierf 
             </div>
             <div className='max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6'>
-              lorem ispum is simplt dummy text fr peronmf amd irierf indiusdysf .
+              lorem ispum is simplt dummy text fr peronmf amd irierf 
             </div>
             <div className='max-w-[40%] bg-primary rounded-b-xl rounded-t1-xl ml-auto p-4 text-white mb-6'>
-            lorem ispum is simplt dummy text fr peronmf amd irierf indiusdysf .
+            lorem ispum is simplt dummy text fr peronmf amd irierf 
             </div>
             <div className='max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6'>
-              lorem ispum is simplt dummy text fr peronmf amd irierf indiusdysf .
+              lorem ispum is simplt dummy text fr peronmf amd irierf 
             </div>
             <div className='max-w-[40%] bg-primary rounded-b-xl rounded-t1-xl ml-auto p-4 text-white mb-6'>
-            lorem ispum is simplt dummy text fr peronmf amd irierf indiusdysf .
+            lorem ispum is simplt dummy text fr peronmf amd irierf 
             </div>
             <div className='max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6'>
-              lorem ispum is simplt dummy text fr peronmf amd irierf indiusdysf .
+              lorem ispum is simplt dummy text fr peronmf amd irie
             </div>
             <div className='max-w-[40%] bg-primary rounded-b-xl rounded-t1-xl ml-auto p-4 text-white mb-6'>
-            lorem ispum is simplt dummy text fr peronmf amd irierf indiusdysf .
+            lorem ispum is simplt dummy text fr peronmf amd irierf 
             </div>
           </div>
         </div>
