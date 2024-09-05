@@ -1,5 +1,6 @@
 import React from "react";
 import Avatar from "../../assets/avatar.svg";
+import Input from "../../components/Input";
 
 const Dashboard = () => {
   const contacts = [
@@ -36,9 +37,9 @@ const Dashboard = () => {
   ];
 
   return (
-    <div className="w-screen flex">
+    <div className="w-screen flex overflow-x-hidden"> {/* Prevent horizontal scroll */}
       <div className="w-[25%] h-screen bg-secondary">
-        <div className="flex  items-center my-8 mx-14">
+        <div className="flex items-center my-8 mx-14">
           <img
             className="border border-primary p-[2px] rounded-full"
             src={Avatar}
@@ -75,6 +76,7 @@ const Dashboard = () => {
           })}
         </div>
       </div>
+
       <div className="w-[50%] h-screen bg-white flex flex-col items-center">
         <div className="w-[75%] bg-secondary h-[80px] mt-14 rounded-full flex items-center px-14">
           <div>
@@ -92,10 +94,10 @@ const Dashboard = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="icon icon-tabler icons-tabler-outline icon-tabler-phone-outgoing"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="icon icon-tabler icons-tabler-outline icon-tabler-phone-outgoing"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2c-8.072 -.49 -14.51 -6.928 -15 -15a2 2 0 0 1 2 -2" />
@@ -104,35 +106,41 @@ const Dashboard = () => {
             </svg>
           </div>
         </div>
-        <div className="h-[75%] w-full  overflow-scroll">
-          <div className=" p-14">
-            <div className='max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6'>
-              lorem ispum is simplt dummy text fr peronmf amd irierf 
+        
+        <div className="h-[75%] w-full overflow-y-scroll"> {/* Hidden scrollbar */}
+          <div className="p-14">
+            <div className="max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6">
+              lorem ispum is simplt dummy text fr peronmf amd irierf
             </div>
-            <div className='max-w-[40%] bg-primary rounded-b-xl rounded-t1-xl ml-auto p-4 text-white mb-6'>
-            lorem ispum is simplt dummy text fr peronmf amd irierf 
+            <div className="max-w-[40%] bg-primary rounded-b-xl rounded-tl-xl ml-auto p-4 text-white mb-6">
+              lorem ispum is simplt dummy text fr peronmf amd irierf
             </div>
-            <div className='max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6'>
-              lorem ispum is simplt dummy text fr peronmf amd irierf 
+            <div className="max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6">
+              lorem ispum is simplt dummy text fr peronmf amd irierf
             </div>
-            <div className='max-w-[40%] bg-primary rounded-b-xl rounded-t1-xl ml-auto p-4 text-white mb-6'>
-            lorem ispum is simplt dummy text fr peronmf amd irierf 
+            <div className="max-w-[40%] bg-primary rounded-b-xl rounded-tl-xl ml-auto p-4 text-white mb-6">
+              lorem ispum is simplt dummy text fr peronmf amd irierf
             </div>
-            <div className='max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6'>
-              lorem ispum is simplt dummy text fr peronmf amd irierf 
+            <div className="max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6">
+              lorem ispum is simplt dummy text fr peronmf amd irierf
             </div>
-            <div className='max-w-[40%] bg-primary rounded-b-xl rounded-t1-xl ml-auto p-4 text-white mb-6'>
-            lorem ispum is simplt dummy text fr peronmf amd irierf 
+            <div className="max-w-[40%] bg-primary rounded-b-xl rounded-tl-xl ml-auto p-4 text-white mb-6">
+              lorem ispum is simplt dummy text fr peronmf amd irierf
             </div>
-            <div className='max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6'>
-              lorem ispum is simplt dummy text fr peronmf amd irie
+            <div className="max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6">
+              lorem ispum is simplt dummy text fr peronmf amd irierf
             </div>
-            <div className='max-w-[40%] bg-primary rounded-b-xl rounded-t1-xl ml-auto p-4 text-white mb-6'>
-            lorem ispum is simplt dummy text fr peronmf amd irierf 
+            <div className="max-w-[40%] bg-primary rounded-b-xl rounded-tl-xl ml-auto p-4 text-white mb-6">
+              lorem ispum is simplt dummy text fr peronmf amd irierf
             </div>
           </div>
         </div>
+
+        <div className="p-14 w-full">
+          <Input placeholder="type a message" />
+        </div>
       </div>
+
       <div className="w-[25%] h-screen"></div>
     </div>
   );
