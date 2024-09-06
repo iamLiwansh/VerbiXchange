@@ -37,7 +37,9 @@ const Dashboard = () => {
   ];
 
   return (
-    <div className="w-screen flex overflow-x-hidden"> {/* Prevent horizontal scroll */}
+    <div className="w-screen flex overflow-x-hidden">
+      {" "}
+      {/* Prevent horizontal scroll */}
       <div className="w-[25%] h-screen bg-secondary">
         <div className="flex items-center my-8 mx-14">
           <img
@@ -76,11 +78,16 @@ const Dashboard = () => {
           })}
         </div>
       </div>
-
       <div className="w-[50%] h-screen bg-white flex flex-col items-center">
-        <div className="w-[75%] bg-secondary h-[80px] mt-14 rounded-full flex items-center px-14">
+        <div className="w-[75%] bg-secondary h-[80px] my-14 rounded-full flex items-center px-14">
           <div>
-            <img className="cursor-pointer" src={Avatar} alt="user" height={40} width={40} />
+            <img
+              className="cursor-pointer"
+              src={Avatar}
+              alt="user"
+              height={40}
+              width={40}
+            />
           </div>
           <div className="ml-6 mr-auto ">
             <h3 className="text-lg ">Kapil</h3>
@@ -106,8 +113,10 @@ const Dashboard = () => {
             </svg>
           </div>
         </div>
-        
-        <div className="h-[75%] w-full overflow-y-scroll"> {/* Hidden scrollbar */}
+
+        <div className="h-[75%] w-full overflow-y-scroll">
+          {" "}
+          {/* Hidden scrollbar */}
           <div className="p-14">
             <div className="max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6">
               lorem ispum is simplt dummy text fr peronmf amd irierf
@@ -136,11 +145,46 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="p-14 w-full">
+        <div className="p-14 w-full flex items-center">
           <Input placeholder="type a message" />
+          <div className="ml-4 p-4 cursor-pointer bg-light rounded-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-send"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M10 14l11 -11" />
+              <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+            </svg>
+          </div>
+          <div className="ml-4 p-4 cursor-pointer bg-light rounded-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-plus"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 5l0 14" />
+              <path d="M5 12l14 0" />
+            </svg>
+          </div>
         </div>
       </div>
-
       <div className="w-[25%] h-screen"></div>
     </div>
   );
