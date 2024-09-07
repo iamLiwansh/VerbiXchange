@@ -10,10 +10,6 @@ function App() {
       <Route path="/user/sign-in" element={<Form isSignInPage={true}/>}/>
       <Route path="/user/sign-up" element={<Form isSignInPage={false}/>}/>
     </Routes>
-   <div className="bg-[#c8d7ee] h-screen flex justify-center items-center">
-    {/* <Form/> */}
-    <Dashboard/>
-   </div>
    </>
   );
 }
