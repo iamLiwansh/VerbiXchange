@@ -12,6 +12,7 @@ const Form = ({ isSignInPage = true }) => {
   });
 
   return (
+    <div className=' bg-light h-screen flex items-center justify-center'>
     <div className="bg-gradient-to-r from-white to-gray-100 w-[400px] md:w-[500px] lg:w-[600px] h-auto shadow-2xl rounded-3xl flex flex-col justify-center items-center p-8">
       <div className="text-4xl font-extrabold text-gray-800 mb-6">
         Welcome {isSignInPage && 'back'}
@@ -58,6 +59,7 @@ const Form = ({ isSignInPage = true }) => {
           {!isSignInPage ? 'Sign in' : 'Sign up'}
         </span>
       </div>
+    </div>
     </div>
   );
 };
