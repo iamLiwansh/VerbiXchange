@@ -131,13 +131,13 @@ const Dashboard = () => {
               lorem ispum is simplt dummy text fr peronmf amd irierf
             </div>
             <div className="max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6">
-              lorem ispum is simplt dummy text fr peronmf amd irierf
+              lorem ispum is simplt dummy text fr peronmf amd irierf ffd
             </div>
             <div className="max-w-[40%] bg-primary rounded-b-xl rounded-tl-xl ml-auto p-4 text-white mb-6">
-              lorem ispum is simplt dummy text fr peronmf amd irierf
+              lorem ispum is simplt dummy text fr peronmf amd irierf ddfd
             </div>
             <div className="max-w-[40%] bg-secondary rounded-b-xl rounded-tr-xl p-4 mb-6">
-              lorem ispum is simplt dummy text fr peronmf amd irierf
+              lorem ispum is simplt dummy text fr peronmf amd irierfdfg
             </div>
             <div className="max-w-[40%] bg-primary rounded-b-xl rounded-tl-xl ml-auto p-4 text-white mb-6">
               lorem ispum is simplt dummy text fr peronmf amd irierf
